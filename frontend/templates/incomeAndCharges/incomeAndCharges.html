@@ -1,0 +1,55 @@
+<div class="content flex-grow-1">
+    <h1 class='content-title text-primary-emphasis'>Доходы и расходы</h1>
+    <div class="content-actions d-inline-block">
+        <button class="btn btn-success me-2 createOperation">Создать доход</button>
+        <button class="btn btn-danger createOperation">Создать расход</button>
+    </div>
+    <div class="period d-flex align-items-baseline">
+        <div class="period-buttons">
+            <div class="btn chosenPeriod btn-outline-secondary me-3 active">Сегодня</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Неделя</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Месяц</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Год</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Все</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Интервал</div>
+        </div>
+        <div class="dates">
+            <span class="me-3 text-black">с</span>
+            <input type="text" placeholder='Дата' class="date me-3 border-0 border-bottom p-0">
+            <span class="me-3 text-black">по</span>
+            <input type="text" placeholder='Дата' class="date border-0 border-bottom p-0">
+        </div>
+    </div>
+
+    <div class="table" >
+        <table class="table border-top" id="table">
+            <thead class="text-primary-emphasis text-center" id="thead">
+            <tr class="text-primary-emphasis">
+                <td class="text-primary-emphasis">№ операции</td>
+                <td class="text-primary-emphasis">Тип</td>
+                <td class="text-primary-emphasis">Категория</td>
+                <td class="text-primary-emphasis">Сумма</td>
+                <td class="text-primary-emphasis">Дата</td>
+                <td class="text-primary-emphasis">Комментарий</td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody class="text-black text-center" id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                Вы действительно хотите удалить операцию?
+            </div>
+            <div class="modal-footer border-0 justify-content-center">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="confirm">Да, удалить</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Не удалять</button>
+            </div>
+        </div>
+    </div>
+</div>

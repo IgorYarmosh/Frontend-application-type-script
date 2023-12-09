@@ -1,0 +1,28 @@
+
+.content {
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.content-title {
+    font-family: Roboto-Medium, sans-serif;
+    margin-bottom: 40px;
+}
+
+.form {
+    width: 397px;
+}
+
+.form input::placeholder, .form input, .form select {
+    font-size: 15px;
+    color: #6C757D;
+}
+
+.btn {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+}
+
+#select {
+    width: 397px;
+}

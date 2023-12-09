@@ -1,0 +1,90 @@
+
+.content {
+    padding: 100px 60px 133px 60px;
+}
+
+.content-title {
+    font-family: Roboto-Medium, sans-serif;
+    margin-bottom: 40px;
+}
+
+.content-actions {
+    margin-bottom: 40px;
+}
+
+
+.btn {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+.sidebar .btn {
+    font-family: Roboto-Regular, sans-serif;
+}
+
+.btn {
+    width: initial;
+    padding: 11px 16px;
+}
+
+.period {
+    margin-bottom: 40px;
+}
+
+.period-buttons .btn {
+    width: 100px;
+}
+
+.table {
+    max-width: 1101px;
+    border-spacing: 10px;
+}
+
+thead tr td {
+    font-family: Roboto-Bold, sans-serif !important;
+}
+
+tbody tr td {
+    font-family: Roboto-Regular, sans-serif !important;
+}
+
+.number {
+    font-family: Roboto-Bold, sans-serif;
+}
+
+.modal {
+    top: 25%;
+}
+
+
+.modal-content {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #290661;
+}
+
+.editOperation, .deleteOperation {
+    text-decoration: none;
+}
+
+.date {
+    width: 39px;
+}
+
+.deleteOperation {
+    margin-right: 10.5px;
+}
+
+.deleteOperation img {
+    width: 13px;
+    height: 15px;
+}
+
+.editOperation img {
+    width: 16px;
+    height: 16px;
+}

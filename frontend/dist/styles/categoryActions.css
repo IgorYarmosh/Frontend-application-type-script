@@ -1,0 +1,42 @@
+
+.content {
+    padding-top: 101px;
+    padding-left: 60px;
+}
+
+.edit-title {
+    font-family: Roboto-Medium, sans-serif;
+    margin-bottom: 40px;
+}
+
+.edit-input, .create-input {
+    max-width: 397px;
+    margin-bottom: 20px;
+}
+
+.edit-title {
+    margin-bottom: 40px;
+    font-family:Roboto-Medium, sans-serif;
+}
+
+.edit-input::placeholder {
+    font-family:Roboto-Regular, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.create-input::placeholder {
+    font-family:Roboto-Regular, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6C757D;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.incorrect {
+    box-shadow: 0 0 2px 2px red;
+}

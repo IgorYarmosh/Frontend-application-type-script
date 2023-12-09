@@ -1,0 +1,30 @@
+<div class="content flex-grow-1">
+    <h1 class='content-title text-primary-emphasis'>Главная</h1>
+    <div class="period d-flex align-items-baseline">
+        <div class="period-buttons">
+            <div class="btn chosenPeriod btn-outline-secondary me-3 active">Сегодня</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Неделя</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Месяц</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Год</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Все</div>
+            <div class="btn chosenPeriod btn-outline-secondary me-3">Интервал</div>
+        </div>
+        <div class="dates">
+            <span class=" me-3 text-black">с</span>
+            <input type="text" placeholder='Дата' class="date me-3 border-0 border-bottom p-0" >
+            <span class="me-3 text-black">по</span>
+            <input type="text" placeholder='Дата' class="date border-0 border-bottom p-0" >
+        </div>
+    </div>
+    <div class="diagrams d-flex justify-content-between">
+        <div class="diagram-income" id="diagram-income">
+            <h2 class='diagram-title text-center mb-3'>Доходы</h2>
+            <canvas id="incomeChart"></canvas>
+        </div>
+        <div class="diagrams-line"></div>
+        <div class="diagram-charges" id="diagram-charges">
+            <h2 class='diagram-title text-center mb-3'>Расходы</h2>
+            <canvas id="chargesChart" width="360px"></canvas>
+        </div>
+    </div>
+</div>

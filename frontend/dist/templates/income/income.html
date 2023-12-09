@@ -1,0 +1,24 @@
+<div class="content">
+    <h1 class='income-title text-primary-emphasis'>Доходы</h1>
+    <div class="income-items d-flex flex-wrap" id="income-items">
+        <div class="income-item empty-item border rounded-3" id="add">
+            <a href='javascript:void(0)' class="plus d-flex justify-content-center align-items-center fs-3">+</a>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                Вы действительно хотите удалить категорию? Связанные доходы будут удалены навсегда.
+            </div>
+            <div class="modal-footer border-0 justify-content-center">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="confirm">Да, удалить</button>
+                <button type="button" class="btn btn-danger"  id="refuse" data-bs-dismiss="modal">Не
+                    удалять
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,55 @@
+
+.content {
+    padding: 100px 94px 133px 60px;
+}
+
+.content-title {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 70px;
+}
+
+.period-buttons .btn {
+    width: 100px;
+}
+
+input {
+    outline: none;
+    width: 39px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.period {
+    margin-bottom: 140px;
+}
+
+.diagrams {
+    position: relative;
+}
+
+.diagrams-line {
+    border-left: 1px solid #D9D9D9;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 57px;
+}
+
+.diagram-title {
+    color: #290661;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.diagram-income, .diagram-charges {
+    width: 437px;
+}
+
+.incorrect {
+    border-bottom: 2px solid red !important;
+}
